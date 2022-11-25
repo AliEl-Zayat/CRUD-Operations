@@ -1,0 +1,8 @@
+.ButtonGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.ButtonGroup.fullBtn button {
+  width: 100%;
+}

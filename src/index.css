@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue";
+}
+.listing-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+.listing-table td {
+  text-align: center;
+}
+.user {
+  display: flex;
+}
+.form-btn {
+  padding: 10px 13px;
+  color: #fff;
+  background-color: #ff9900;
+}
+.form-btn:hover {
+  color: #ff9900;
+  border-color: #ff9900;
+  background-color: #fff;
+}
+.add-user-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+input.error {
+  animation: shake 0.2s ease-in-out 0s 2;
+  box-shadow: 0 0 0.5em red;
+}
+@keyframes shake {
+  0% {
+    margin-left: 0rem;
+  }
+  25% {
+    margin-left: 0.5rem;
+  }
+  75% {
+    margin-left: -0.5rem;
+  }
+  100% {
+    margin-left: 0rem;
+  }
+}

@@ -1,0 +1,30 @@
+.btn {
+  border-radius: 2px;
+  transition: 0.2s ease-in-out all;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 17px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.primary {
+  color: #fff;
+  background-color: #426fc5;
+  padding: 7px 15px;
+}
+.danger {
+  color: #fff;
+  background-color: #ad2a19;
+  padding: 7px 15px;
+}
+.primary:hover {
+  background-color: #fff;
+  color: #426fc5;
+  border-color: #426fc5;
+}
+.danger:hover {
+  background-color: #fff;
+  color: #ad2a19;
+  border-color: #ad2a19;
+}
